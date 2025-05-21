@@ -48,45 +48,52 @@
     </div>
   </header>
 
-  <!-- Portfolio Section -->
-  <section class="portfolio-section">
-    <div class="portfolio-header">
-      <h2>Portfolio</h2>
-      <p>
-        From working with local brands to capturing untamed landscapes,<br>
-        Denin’s work pushes boundaries and inspires the next generation of creators.
-      </p>
-    </div>
-    <div class="portfolio-grid">
-      <!-- Card 1 -->
-      <div class="portfolio-card">
-        <img src="media/DSCN3491.jpg" class="thumb" alt="">
-        <div class="card-info">
-          <h3>Mecca, Hindu College</h3><hr>
-          <p class="category">concert</p>
-          <p class="date">04/28/2023</p>
-        </div>
-      </div>
-      <!-- Card 2 -->
-      <div class="portfolio-card">
-        <img src="media/DSCN3738 (1).jpg" class="thumb" alt="">
-        <div class="card-info">
-          <h3>Mecca, Hindu College</h3><hr>
-          <p class="category">concert</p>
-          <p class="date">08/25/2023</p>
-        </div>
-      </div>
-      <!-- Card 3 -->
-      <div class="portfolio-card">
-        <img src="media/DSCN0296.jpg" class="thumb" alt="">
-        <div class="card-info">
-          <h3>Ragam NITC</h3><hr>
-          <p class="category">concert</p>
-          <p class="date">02/25/2025</p>
-        </div>
+  <!-- Portfolio Section with Hover Effects, Transparent Background, and Dark Mode -->
+<section class="py-8 text-gray-900 dark:text-gray-100">
+  <div class="text-center mb-12 px-4">
+    <h2 class="text-2xl font-bold">Portfolio</h2>
+    <p class="text-gray-600 dark:text-gray-400">
+      From working with local brands to capturing  untamed landscapes,<br>
+      Denin’s work pushes boundaries and inspires the next generation of creators.
+    </p>
+  </div>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 max-w-7xl mx-auto">
+    <!-- Card 1 -->
+    <div class="transition-transform duration-300 hover:scale-105 hover:shadow-lg bg-white dark:bg-gray-800 bg-opacity-80 dark:bg-opacity-80 rounded overflow-hidden">
+      <img src="media/DSCN3491.jpg" class="w-full" alt="">
+      <div class="p-4">
+        <h3 class="text-lg font-semibold">Mecca, Hindu College</h3>
+        <hr class="my-2 border-gray-300 dark:border-gray-700">
+        <p class="text-sm text-gray-500 dark:text-gray-400">concert</p>
+        <p class="text-xs text-gray-400 dark:text-gray-500">04/28/2023</p>
       </div>
     </div>
-  </section>
+
+    <!-- Card 2 -->
+    <div class="transition-transform duration-300 hover:scale-105 hover:shadow-lg bg-white dark:bg-gray-800 bg-opacity-80 dark:bg-opacity-80 rounded overflow-hidden">
+      <img src="media/DSCN3738 (1).jpg" class="w-full" alt="">
+      <div class="p-4">
+        <h3 class="text-lg font-semibold">Mecca, Hindu College</h3>
+        <hr class="my-2 border-gray-300 dark:border-gray-700">
+        <p class="text-sm text-gray-500 dark:text-gray-400">concert</p>
+        <p class="text-xs text-gray-400 dark:text-gray-500">08/25/2023</p>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="transition-transform duration-300 hover:scale-105 hover:shadow-lg bg-white dark:bg-gray-800 bg-opacity-80 dark:bg-opacity-80 rounded overflow-hidden">
+      <img src="media/DSCN0296.jpg" class="w-full" alt="">
+      <div class="p-4">
+        <h3 class="text-lg font-semibold">Ragam NITC</h3>
+        <hr class="my-2 border-gray-300 dark:border-gray-700">
+        <p class="text-sm text-gray-500 dark:text-gray-400">concert</p>
+        <p class="text-xs text-gray-400 dark:text-gray-500">02/25/2025</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 </body>
 </html>

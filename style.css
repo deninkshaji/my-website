@@ -143,3 +143,8 @@ nav a:hover { opacity: 0.7; }
   .landing .intro-text h1 { font-size: 1.5rem; }
   .bottom-info { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
 }
+
+/* Add to your global CSS or Tailwind config if needed */
+@media (prefers-color-scheme: dark) {
+  /* No additional CSS needed if Tailwind dark mode enabled */
+}
