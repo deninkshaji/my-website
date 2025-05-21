@@ -10,15 +10,13 @@
 
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
-  
+
   <link rel="stylesheet" href="style.css">
 
   <link rel="icon" href="media/favicon_den.png">
 </head>
 <body>
-  <!-- Transition overlay -->
-  <div id="transition-overlay"></div>
-
+  
   <!-- Background video -->
   <video autoplay muted loop playsinline class="bg-video">
     <source src="media/v7.mp4" type="video/mp4">
@@ -39,10 +37,11 @@
       </svg>
       </a>
       </div>
-      <nav>
+      
+      <nav class="flex flex-wrap items-center space-x-7">
         <a href="index.html">HOME</a>
         <a href="work.html">WORK</a>
-        <a href="contact.html" class="contact-btn">CONTACT</a>
+        <a href="contact.html" class="contact-btn whitespace-nowrap">CONTACT</a>
       </nav>
     </div>
   </header>
@@ -58,17 +57,10 @@
       </div>
     </div>
   </section>
-
-  <!-- GSAP + main.js -->
-  <script>
-  document.querySelector(".copyright-year").textContent = new Date().getFullYear();
-  </script>
-
-
-
-  <footer class="bg-neutral-900 text-white py-6 px-4 md:px-20">
+ 
+<footer class="bg-neutral-900 text-white py-6 px-4 md:px-20">
   <div class="grid grid-cols-1 md:grid-cols-3 items-center text-center max-w-7xl mx-auto bg-neutral-800 p-6 rounded-lg gap-4">
-    
+
     <!-- Left -->
     <div class="text-sm font-mono">
       Copyright © 2024 Denin K Shaji
@@ -88,11 +80,9 @@
         <i class="fab fa-youtube fa-lg"></i>
       </a>
     </div>
-
+    
   </div>
 </footer>
-
-
 
 </body>
 </html>
